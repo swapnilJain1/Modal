@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1 {
+  padding: 15px;
+  margin-bottom: 25px;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.modal {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 100vw;
+  height: 100vh;
+  z-index: 2;
+}
+.modal-container {
+  max-width: 360px;
+  min-width: 320px;
+  border: 1px solid black;
+  background-color: burlywood;
+  margin: 150px auto;
+  padding: 20px 15px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  position: relative;
+}
+
+button {
+  padding: 6px 13px;
+  border-radius: 5px;
+  border: none;
+  margin: 25px 10px;
+  margin-bottom: -5px;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  background-color: cadetblue;
+  color: white;
+}
+button:hover {
+  transform: scale(1.04);
+  /* background-color: yellow; */
+  color: whitesmoke;
+  cursor: pointer;
+}
+.close-button {
+  position: absolute;
+  bottom: 94px;
+  right: -10px;
+  color: red;
+  background-color: rgba(0, 0, 0, 0);
+  font-size: 16px;
+  border-radius: 50%;
+}
